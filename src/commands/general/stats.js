@@ -81,5 +81,6 @@ ${guildlist})
 }
 
 exports.help = {
-   name: "botinfo"
+   name: "stats",
+   description: "Show stats bot"
 }
