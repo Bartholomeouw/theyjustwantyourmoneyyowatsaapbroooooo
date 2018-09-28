@@ -80,7 +80,13 @@ ${guildlist})
   
 }
 
+exports.conf = {
+    aliases: ['st'],
+    cooldown: '5'
+}
+
 exports.help = {
    name: "stats",
-   description: "Show stats bot"
+   description: "Show stats bot", 
+   usage: "stats"
 }
