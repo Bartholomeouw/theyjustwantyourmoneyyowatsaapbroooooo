@@ -55,7 +55,7 @@ exports.conf = {
 }
 
 exports.help = {
-  name: "roles"
+  name: "roles",
   description: "Show guild roles",
   usage: "roles"
 }
