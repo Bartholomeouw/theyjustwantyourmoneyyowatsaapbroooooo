@@ -37,8 +37,14 @@ Reason : "${reason}"`);
   }
 }
 
+exports.conf = {
+  aliases: ['ban'],
+  cooldown: '5'
+  
+  }
+  
 exports.help = {
   name: "ban",
-  description: 'Ban Seseorang Dari Servermu [PERMISSION BAN MEMBERS ONLY]',
+  description: 'Ban someone from u server [PERMISSION BAN MEMBERS ONLY]',
   usage: 'ban [@mention someone]'
 }
