@@ -54,7 +54,7 @@ exports.conf = {
   }
   
 exports.help = {
-  name: "guildlist"
+  name: "guildlist",
   description: "Show guild list",
   usage: "guildlist"
 }
