@@ -1,4 +1,4 @@
-const codDevClient = require('./handle/meliodasClient');
+const meliodasClient = require('./handle/meliodasClient');
 
 const client = new meliodasClient({
   fetchAllMembers: true,
