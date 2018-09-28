@@ -32,7 +32,7 @@ exports.run = async (client, message, args, color) => {
       return message.channel.send(embed);
     }
     if (!client.commands.has(cmd) || !client.commands.get(client.aliases.get(cmd))) {
-      message.channel.send(`**${message.author.username}**, Maaf aku tidak bisa mencari perintah \`${cmd}\` yang kamu maksud.`);
+      message.channel.send(`**${message.author.username}**, Sorry i not found \`${cmd}\` you mean.`);
     }
   }
 }
