@@ -19,7 +19,7 @@ exports.conf = {
 }
 
 exports.help = {
-     name: "avatar,
+     name: "avatar",
      description: "Show someone avatar",
      usage: "avatar @mention"
 }
