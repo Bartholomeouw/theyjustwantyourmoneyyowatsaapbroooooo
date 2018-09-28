@@ -1,0 +1,116 @@
+{
+
+  "name": "rendang-bot",
+  "version": "1.2.8",
+  "description": "Rendang Discord BOT",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "6.4.1"
+  },
+
+  "scripts": {
+    "test": "eslint --ignore-path .gitignore .",
+    "start": "node index.js"
+
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodDevelopment/CodDev.git"
+
+  },
+
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Discord.js",
+    "CodDev",
+    "CodDevelopment",
+    "Codex Development",
+    "Meliodas",
+    "Meliodas Bot"
+
+  ],
+
+  "author": "undefined",
+
+  "license": "MIT",
+
+  "bugs": {
+
+    "url": "https://github.com/fatir1242/theyjustwantyourmoneyyowatsaapbroooooo/issues"
+
+  },
+
+  "homepage": "https://github.com/fatir1242/theyjustwantyourmoneyyowatsaapbroooooo#readme",
+
+  "dependencies": {
+
+    "@discordjs/uws": "^10.149.0",
+
+    "bufferutil": "^4.0.0",
+
+    "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+
+    "canvas-constructor": "^1.1.0",
+
+    "discord.js": "^11.4.2",
+
+    "enmap": "4.0.11",
+
+    "enmap-sqlite": "2.0.5",
+
+    "got": "^9.2.2",
+
+    "math-expression-evaluator": "1.2.17",
+
+    "memejs": "1.0.7",
+
+    "moment": "^2.22.2",
+
+    "moment-duration-format": "^2.2.2",
+
+    "moment-timezone": "^0.5.21",
+
+    "node-fetch": "^2.2.0",
+
+    "node-opus": "0.3.0",
+
+    "node-superfetch": "^0.1.5",
+
+    "relevant-urban": "^2.0.0",
+
+    "request": "^2.88.0",
+
+    "request-promise-native": "^1.0.5",
+
+    "simple-youtube-api": "^5.0.2",
+
+    "snekfetch": "^4.0.4",
+
+    "sodium": "^2.0.3",
+
+    "sqlite": "^3.0.0",
+
+    "sqlite3": "^4.0.2",
+
+    "superagent": "^3.8.3",
+
+    "weather-js": "^2.0.0",
+
+    "ytdl-core": "^0.24.0", 
+
+    "cheerio": "^1.0.0-rc.2" 
+
+  },
+
+  "devDependencies": {
+
+    "eslint": "^4.19.1",
+
+    "eslint-config-strongloop": "^2.1.0"
+
+  }
+
+}
