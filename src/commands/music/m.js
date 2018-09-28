@@ -1,9 +1,9 @@
 const ytdl = require("ytdl-core");
 const YouTube = require("simple-youtube-api");
 const Discord = require('discord.js')
-const botconfig = require('../botconfig.json')
+const botconfig = require('../config.json')
 let red = botconfig.red
-const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('../botconfig.json'); 
+const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('../config.json'); 
 const youtube = new YouTube("AIzaSyCY3Cuwh6UxLKNCJwf-6Yd7F5g3w3cQ2YQ");
 const { Client, Util, RichEmbed, Message } = require('discord.js');
 const queue = new Discord.Collection();
