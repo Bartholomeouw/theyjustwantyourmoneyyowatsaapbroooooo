@@ -15,6 +15,13 @@ exports.run = async (client, message, args) => {
     });
 }
 
+exports.conf = {
+    aliases: ['c'],
+    cooldown: '5'
+    }
+
 exports.help = {
-    name: "clear"
+    name: "clear",
+    description: "Clear message",
+    usage: "clear (total message)"
 }
