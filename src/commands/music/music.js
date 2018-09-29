@@ -3,7 +3,7 @@ const YouTube = require("simple-youtube-api");
 const Discord = require('discord.js')
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY
 const { TOKEN, PREFIX } = require('.../config.json'); 
-const youtube = new YouTube("GOOGLE_API_KEY");
+const youtube = new YouTube("AIzaSyCY3Cuwh6UxLKNCJwf-6Yd7F5g3w3cQ2YQ");
 const { Client, Util, RichEmbed, Message } = require('discord.js');
 const queue = new Discord.Collection();
   
