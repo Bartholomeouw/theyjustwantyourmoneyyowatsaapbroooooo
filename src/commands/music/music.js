@@ -1,7 +1,7 @@
 const ytdl = require("ytdl-core");
 const YouTube = require("simple-youtube-api");
 const Discord = require('discord.js')
-const GOOGLE_API_KEY = AIzaSyCY3Cuwh6UxLKNCJwf-6Yd7F5g3w3cQ2YQ
+const GOOGLE_API_KEY = "AIzaSyCY3Cuwh6UxLKNCJwf-6Yd7F5g3w3cQ2YQ"
 const youtube = new YouTube("AIzaSyCY3Cuwh6UxLKNCJwf-6Yd7F5g3w3cQ2YQ");
 const { Client, Util, RichEmbed, Message } = require('discord.js');
 const queue = new Discord.Collection();
